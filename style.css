@@ -1,0 +1,67 @@
+header{
+  background: purple;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: none;
+  padding: none;
+  border: none;
+}
+
+.box1{
+  background: cyan;
+  height: 30px;
+  width: 150px;
+  margin: 10px;
+}
+
+.box2{
+  background: cyan;
+  height: 30px;
+  width: 250px;
+  margin: 10px;
+}
+
+.box3{
+  background: cyan;
+  height: 30px;
+  width: 150px;
+  margin: 10px;
+}
+
+.box4{
+  background: cyan;
+  height: 30px;
+  width: 150px;
+  margin: 10px;
+}
+
+section{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  height: 500px;
+  margin: 80px 100px 0px 100px;
+  padding: none;
+  border: 1px solid black;
+}
+
+.green{
+  background: lime;
+  flex-grow: 1;
+}
+
+.yellow{
+  background: yellow;
+  flex-grow: 4;
+}
+
+footer{
+  background: lightgrey;
+  height: 80px;
+  margin: 10px 100px 10px 100px;
+}
