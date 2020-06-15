@@ -1,0 +1,171 @@
+body{
+    background-color: rgb(39, 1, 1);
+    font-family: 'Sriracha', cursive;
+  }
+  
+  header{
+    background: linear-gradient(gray, rgb(39, 1, 1));
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: none;
+    padding: none;
+    border: none;
+    font-family: 'Sriracha', cursive;
+  }
+  
+  header div{
+    border-radius: 30px;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  header div:hover{
+    background: rgb(39, 1, 1);
+    color: rgb(240, 206, 52);
+  }
+  
+  .box1{
+    background: rgb(240, 206, 52);
+    height: 30px;
+    width: auto;
+    margin: 10px;
+  }
+  
+  .box2{
+    background: rgb(240, 206, 52);
+    height: 30px;
+    width: auto;
+    margin: 10px;
+  }
+  
+  .box3{
+    background: rgb(240, 206, 52);
+    height: 30px;
+    width: auto;
+    margin: 10px;
+  }
+  
+  .box4{
+    background: rgb(240, 206, 52);
+    height: 30px;
+    width: auto;
+    margin: 10px;
+  }
+  
+  section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    margin: 80px 100px 0px 100px;
+    padding: none;
+    border: 1px solid black;
+  }
+  
+  .right{
+    background: rgb(240, 206, 52);
+    width: 500px;
+    border-radius: 30px;
+  }
+  
+  .left{
+    background: rgb(240, 206, 52);
+    width: 500px;
+    border-radius: 30px;
+    margin-right: 20px;
+  }
+  
+  .middle{
+    background-color: rgb(240, 206, 52);
+    width: 900px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+  
+  .article{
+    text-align: center;
+  }
+  
+  .article p{
+  margin: 0px 30px;
+  }
+  
+  .article h2{
+    margin: 10px 20px;
+  }
+  
+  img{
+    height: 300px;
+  }
+  
+  footer{
+    background: rgb(240, 206, 52);
+    height: auto;
+    margin: 10px 100px 10px 100px;
+    border-radius: 30px;
+  }
+  
+  footer p{
+    margin: 0px 10px;
+  }
+  
+  .fb-post{
+    margin-top: 80px;
+    
+  }
+  
+  #newsletter{
+    background-color: rgb(240, 206, 52);
+    width: 600px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 0px;
+    }
+  
+  h2{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+    /* text-shadow: 1px 0px lightgray; */
+  }
+  
+  h3{
+    margin: 0px 10px;
+    color: black;
+  }
+  
+  input{
+    background-color: rgb(240, 206, 52);
+    width: 300px;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+  }
+  
+  #subscribe{
+    width: auto;
+    padding: 5px 20px;
+    margin-top: 5px;
+    font-weight: bold;
+    align-content: center;
+  }
+
+  .fb-page{
+      text-align: center;
+      display: block;
+      margin: 20px 0px;
+  }
