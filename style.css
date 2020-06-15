@@ -16,6 +16,7 @@ header{
   padding: none;
   border: none;
   font-family: 'Sriracha', cursive;
+  z-index: 2;
 }
 
 header div{
@@ -27,7 +28,7 @@ a:link {
 }
 
 header div:hover{
-  background: rgb(39, 1, 1);
+  background: white;
   color: rgb(240, 206, 52);
 }
 
@@ -104,6 +105,7 @@ footer{
   height: auto;
   margin: 10px 100px 10px 100px;
   border-radius: 30px;
+  text-align: center;
 }
 
 footer p{
@@ -161,6 +163,10 @@ input{
   margin: 20px 0px;
 }
 
+.fb-like{
+  margin-bottom: 10px;
+}
+
 #FB{
   background-color: rgb(240, 206, 52);
   width: 600px;
@@ -169,4 +175,5 @@ input{
   margin-top: 20px;
   padding: 0px 20px;
   padding-bottom: 0px;
+  text-align: center;
   }
