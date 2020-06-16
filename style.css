@@ -5,7 +5,7 @@ body{
 
 header{
   background: linear-gradient(gray, rgb(39, 1, 1));
-  height: 50px;
+  height: 55px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -34,28 +34,28 @@ header div:hover{
 
 .box1{
   background: rgb(240, 206, 52);
-  height: 30px;
+  height: 35px;
   width: auto;
   margin: 10px;
 }
 
 .box2{
   background: rgb(240, 206, 52);
-  height: 30px;
+  height: 35px;
   width: auto;
   margin: 10px;
 }
 
 .box3{
   background: rgb(240, 206, 52);
-  height: 30px;
+  height: 35px;
   width: auto;
   margin: 10px;
 }
 
 .box4{
   background: rgb(240, 206, 52);
-  height: 30px;
+  height: 35px;
   width: auto;
   margin: 10px;
 }
@@ -81,11 +81,15 @@ section{
   width: 500px;
   border-radius: 30px;
   margin-right: 20px;
+  
 }
 
 
 .article{
+  justify-content: center;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .article p{
@@ -97,19 +101,25 @@ margin: 0px 30px;
 }
 
 img{
-  height: 300px;
+  max-height: 300px;
+  width: fit-content;
+  margin: auto;
 }
 
 footer{
   background: rgb(240, 206, 52);
   height: auto;
-  margin: 10px 100px 10px 100px;
+  width: 800px;
+  margin: 10px auto;
   border-radius: 30px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  
 }
 
 footer p{
-  margin: 0px 10px;
+  margin: 0px;
+  padding: 5px 5px;
 }
 
 .fb-post{
@@ -137,6 +147,7 @@ h2{
 
 h3{
   margin: 0px 10px;
+  padding: 0px;
   color: black;
 }
 
