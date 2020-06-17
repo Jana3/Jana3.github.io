@@ -62,26 +62,42 @@ header div:hover{
 
 section{
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 80px;
   justify-content: center;
-  height: 500px;
-  margin: 80px 100px 0px 100px;
   padding: none;
-  border: 1px solid black;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.midbox{
+  background: rgb(240, 206, 52);
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 30px;
+  margin: 20px;
+  text-align: center;
 }
 
 .right{
   background: rgb(240, 206, 52);
-  width: 500px;
+  max-width: 500px;
+  max-height: 500px;
   border-radius: 30px;
+  margin: 20px;
 }
 
 .left{
   background: rgb(240, 206, 52);
-  width: 500px;
+  max-width: 500px;
+  max-height: 500px;
   border-radius: 30px;
-  margin-right: 20px;
-  
+  margin: 20px;
 }
 
 
@@ -102,24 +118,25 @@ margin: 0px 30px;
 
 img{
   max-height: 300px;
-  width: fit-content;
+  max-width: 500px;
   margin: auto;
 }
 
 footer{
   background: rgb(240, 206, 52);
   height: auto;
-  width: 800px;
+  width: 50%;
   margin: 10px auto;
   border-radius: 30px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  
 }
 
 footer p{
   margin: 0px;
   padding: 5px 5px;
+  margin-bottom: 0px;
 }
 
 .fb-post{
@@ -129,7 +146,7 @@ footer p{
 
 #newsletter{
   background-color: rgb(240, 206, 52);
-  width: 600px;
+  width: fit-content;
   border-radius: 30px;
   margin: 0 auto;
   margin-top: 20px;
@@ -153,7 +170,7 @@ h3{
 
 input{
   background-color: rgb(240, 206, 52);
-  width: 300px;
+  width: 50%;
   display: flex;
   text-align: center;
   padding: 5px;
@@ -176,15 +193,15 @@ input{
 
 .fb-like{
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 #FB{
   background-color: rgb(240, 206, 52);
-  width: 600px;
+  width: fit-content;
   border-radius: 30px;
   margin: 0 auto;
   margin-top: 20px;
-  padding: 0px 20px;
-  padding-bottom: 0px;
+  padding: 5px 20px;
   text-align: center;
   }
