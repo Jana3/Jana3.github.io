@@ -130,15 +130,27 @@ body{
   }
   
   .article p{
-  margin: 0px 30px;
+  margin: 5px 30px;
   text-align: justify;
-
+  text-indent: 30px;
   }
-  
+
+  .article p::first-letter, .article h4::first-letter{
+    font-size: 150%;
+  }
+
   .article h2{
     margin: 10px 20px;
+    
   }
   
+  h4{
+    text-align: justify;
+    margin: 10px 30px;
+    text-indent: 30px;
+
+  }
+
   img{
     height: 300px;
   }
