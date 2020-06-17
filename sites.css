@@ -91,15 +91,13 @@ body{
   opacity: 1;
 }
  
-  section{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 500px;
-    margin: 80px 100px 0px 100px;
-    padding: none;
-    border: 1px solid black;
-  }
+section{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  justify-content: center;
+  padding: none;
+}
   
   .right{
     background: rgb(240, 206, 52);
@@ -120,7 +118,7 @@ body{
     height: auto;
     border-radius: 30px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 80px;
     padding-bottom: 20px;
   }
   
