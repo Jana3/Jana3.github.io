@@ -21,7 +21,11 @@ body{
     z-index: 2;
   }
   
-  header a{
+  .menu{
+    display: flex;
+  }
+
+  header a, .menu a{
     border-radius: 30px;
     background: rgb(240, 206, 52);
     text-decoration: none;
