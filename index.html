@@ -12,6 +12,8 @@ xmlns:fb="http://ogp.me/ns/fb#">
   <link rel="shortcut icon" type="image/png" href="favicon.PNG">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
+<script src="jquery-3.5.1.min.js"></script>
 <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7861777.js"></script>
 <!-- End of HubSpot Embed Code -->
@@ -22,15 +24,26 @@ xmlns:fb="http://ogp.me/ns/fb#">
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v7.0"></script>
 
 <main>
+    <!-- Sidenav -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="games.html">Games</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  
+  <!-- Use any element to open the sidenav -->
+  
+  <img src="menubutton.png"onclick="openNav()" style="height: 50px; position: fixed; top: 10px; right: 10px;">
+  <script src="script.js"></script>
+
   <header>
-    <a href="index.html" class="home"><h1>Games Afterglow</h1></a>
-    <div class="menu"><a href="games.html"><h3>Games</h3></a>
-    <a href="about.html"><h3>About</h3></a>
-    <a href="contact.html"><h3>Contact</h3></a></div>
+    <img src="headline.png" alt="">
   </header>
 
   <section class="middle">
-    <div class="row">
+    
     <div class="midbox">
       <div class="article">
         <img src="meeple-group.svg" alt="Welcome">
@@ -46,7 +59,6 @@ xmlns:fb="http://ogp.me/ns/fb#">
         <p>Want to know about the whole journey? I created 'My Diary of Game Design' definitely with the goal of documenting every milestone: trials and errors, wins and success.</p>
         <a href="https://boardgamegeek.com/blog/9797/my-diary-game-designing" class="readmore" target="_blank">Read more</a>
       </div>
-    </div>
     </div>
     <div class="midbox">
       <div class="article">
@@ -68,7 +80,8 @@ xmlns:fb="http://ogp.me/ns/fb#">
   </div>  this is my newsletter form I actually don't use-->
 </div>
 <div id="newsletter">
-  <h2>Subscribe to our newsletter and never miss a thing!</h2>
+  <h2 style="color: black;">Subscribe to our newsletter and never miss a thing!</h2>
+ <div id="newsletterbox">
   <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
@@ -76,16 +89,17 @@ xmlns:fb="http://ogp.me/ns/fb#">
 	formId: "a26faef7-6333-4cf8-883e-a89cad6ddcc9"
 });
 </script>
+
+</div>
 </div>
 <div id="FB">
-  <div class="fb-page" data-href="https://www.facebook.com/Games-Afterglow-106063407789183" data-tabs="timeline" data-width="300" data-height="" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Games-Afterglow-106063407789183" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Games-Afterglow-106063407789183">Games Afterglow</a></blockquote></div>
-</div>
-  <footer>
-    <p>Games for everyone.</p>
-    <p>Games Afterglow.</p>
-    <div class="fb-like" data-href="https://www.facebook.com/Games-Afterglow-106063407789183" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>
-  </footer>
+  <div class="fb-page" data-href="https://www.facebook.com/Games-Afterglow-106063407789183" data-tabs="timeline" data-width="500" data-height="" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Games-Afterglow-106063407789183" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Games-Afterglow-106063407789183">Games Afterglow</a></blockquote></div>
+</div> 
 </main>
-
+<footer>
+  <p>Games for everyone. </p>
+  <p>Games Afterglow.</p>
+  <div class="fb-like" data-href="https://www.facebook.com/Games-Afterglow-106063407789183" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>
+</footer>
 </body>
 </html>
