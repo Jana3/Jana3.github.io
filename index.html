@@ -39,35 +39,53 @@ xmlns:fb="http://ogp.me/ns/fb#">
   <script src="script.js"></script>
 
   <header>
-    <img src="headline.png" alt="">
+    <img src="headline.png" alt="" style="max-height: 200px;
+    max-width: 500px;
+    margin: auto;">
   </header>
+
+<!-- Game selector Java thingy -->
+<section class="games" style="display: flex; justify-content: center;">
+  <div id='back'>
+    <button  id='backbutton'><img src="arrow.svg" alt=""></button>
+  </div>
+  <div id='projects'>
+    <img id='photo'>
+    <div class="textonphoto">
+      <h2 id=title>xxxxx</h2>
+      <p id=description>xxxxx</p>
+    </div>
+  </div>
+  <div id=next>
+    <button id='nextbutton'><img src="arrow.svg" alt=""></button>
+  </div>
+</section>
+
+
 
   <section class="middle">
     
-    <div class="midbox">
       <div class="article">
-        <img src="meeple-group.svg" alt="Welcome">
+        <img src="logo.png" alt="Welcome">
         <h2>Welcome to Games Afterglow!</h2>
         <p>I've created this site to have a home for myself and for those creations, which I produce during my journey in game design. Read about the story behind!</p>
-        <a href="welcome.html" class="readmore">Read more</a>
+        <a href="welcome.html" class="readmore">> Read more</a>
       </div>
-    </div>
-    <div class="midbox">
+    
       <div class="article">
         <img src="compass.svg" alt="Plans">
         <h2>Read everything on my blog!</h2>
         <p>Want to know about the whole journey? I created 'My Diary of Game Design' definitely with the goal of documenting every milestone: trials and errors, wins and success.</p>
-        <a href="https://boardgamegeek.com/blog/9797/my-diary-game-designing" class="readmore" target="_blank">Read more</a>
+        <a href="https://boardgamegeek.com/blog/9797/my-diary-game-designing" class="readmore" target="_blank">> Read more</a>
       </div>
-    </div>
-    <div class="midbox">
+  
       <div class="article">
         <img src="calendar.svg" alt="Dates">
         <h2>Follow the status of your favorite game!</h2>
         <p>I'm sure you want to know, what is up with that idea you read on my blog. Here you have a full page with all the ongoing projects and links.</p>
-        <a href="games.html" class="readmore">Read more</a>
+        <a href="games.html" class="readmore">> Read more</a>
       </div>
-    </div>
+    
   </section>
 
   <!-- <div id="newsletter">
@@ -93,13 +111,18 @@ xmlns:fb="http://ogp.me/ns/fb#">
 </div>
 </div>
 <div id="FB">
-  <div class="fb-page" data-href="https://www.facebook.com/Games-Afterglow-106063407789183" data-tabs="timeline" data-width="500" data-height="" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Games-Afterglow-106063407789183" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Games-Afterglow-106063407789183">Games Afterglow</a></blockquote></div>
-</div> 
+  <h2>Follow us on Facebook, Twitter and Instagram!</h2>
+  <div class="fb-page" data-href="https://www.facebook.com/Games-Afterglow-106063407789183" data-tabs="timeline" data-width="500" data-height="" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Games-Afterglow-106063407789183" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Games-Afterglow-106063407789183">Games Afterglow</a></blockquote></div><br>
+  <a href="https://www.instagram.com/gamesafterglow/" target="_blank"><img src="gamesafterglow_nametag.png" alt="instagram code" style="max-width: 300px;"><br></a>
+  <a href="https://twitter.com/AfterglowGames?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @AfterglowGames</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </main>
 <footer>
   <p>Games for everyone. </p>
   <p>Games Afterglow.</p>
   <div class="fb-like" data-href="https://www.facebook.com/Games-Afterglow-106063407789183" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>
 </footer>
+
+<script src="projects.js"></script>
+
 </body>
 </html>
